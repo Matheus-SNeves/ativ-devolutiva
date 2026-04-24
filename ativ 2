@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int valor;
+    cout << "Informe um numero: ";
+    cin >> valor;
+    if (valor % 2 == 0) {
+        cout << "Este numero e Par" << endl;
+    } else {
+        cout << "Este numero e Impar" << endl;
+    }
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, contPares = 0;
+    for (int i = 0; i < 10; i++) {
+        cout << "Digite um numero: ";
+        cin >> n;
+        if (n % 2 == 0) contPares++;
+    }
+    cout << "Quantidade de pares: " << contPares << endl;
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    cout << "Digite um valor: ";
+    cin >> x;
+    if (x > 0) cout << "Positivo";
+    else if (x < 0) cout << "Negativo";
+    else cout << "Zero";
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int limite;
+    cout << "Contar ate quanto? ";
+    cin >> limite;
+    for (int i = 1; i <= limite; i++) {
+        cout << i << " ";
+    }
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int calcularDobro(int n) {
+    return n * 2;
+}
+
+int main() {
+    int valor;
+    cout << "Digite um numero: ";
+    cin >> valor;
+    cout << "O dobro e: " << calcularDobro(valor) << endl;
+    return 0;
+}

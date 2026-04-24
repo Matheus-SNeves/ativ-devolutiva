@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float num1, num2;
+    int operacao;
+
+    cout << "Digite o primeiro numero: ";
+    cin >> num1;
+    cout << "Digite o segundo numero: ";
+    cin >> num2;
+
+    cout << "Escolha: 1-Soma, 2-Subtracao, 3-Multiplicacao, 4-Divisao: ";
+    cin >> operacao;
+
+    if (operacao == 1) {
+        cout << "Resultado: " << num1 + num2;
+    } else if (operacao == 2) {
+        cout << "Resultado: " << num1 - num2;
+    } else if (operacao == 3) {
+        cout << "Resultado: " << num1 * num2;
+    } else if (operacao == 4) {
+        cout << "Resultado: " << num1 / num2;
+    } else {
+        cout << "Opcao invalida";
+    }
+
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int somarEntre(int inicio, int fim) {
+    int acumulador = 0;
+    for (int i = inicio; i <= fim; i++) {
+        acumulador = acumulador + i;
+    }
+    return acumulador;
+}
+
+int main() {
+    int a, b;
+    cout << "Digite o valor inicial: ";
+    cin >> a;
+    cout << "Digite o valor final: ";
+    cin >> b;
+
+    cout << "A soma de todos os numeros entre eles e: " << somarEntre(a, b) << endl;
+
+    return 0;
+}

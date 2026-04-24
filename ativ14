@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int mostrarMaior(int a, int b) {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+int main() {
+    int n1, n2;
+    cout << "Digite dois numeros: ";
+    cin >> n1 >> n2;
+    cout << "O maior numero e: " << mostrarMaior(n1, n2) << endl;
+    return 0;
+}

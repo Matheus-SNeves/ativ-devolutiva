@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int calcularQuadrado(int n) {
+	return n * n;
+}
+
+int main() {
+	int x;
+	cout << "Insira um valor: ";
+	cin >> x;
+	cout << "O quadrado e: " << calcularQuadrado(x) << endl;
+	return 0;
+}
